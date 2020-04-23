@@ -1,0 +1,40 @@
+uuid: d49bf92e-ba9c-44a2-9b76-8260973dc475
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_testimony
+    - node.type.testimonies
+    - paragraphs.paragraphs_type.testimony_paragraph
+  module:
+    - entity_reference_revisions
+id: node.testimonies.field_testimony
+field_name: field_testimony
+entity_type: node
+bundle: testimonies
+label: Testimony
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      testimony_paragraph: testimony_paragraph
+    target_bundles_drag_drop:
+      banner_paragraph:
+        weight: 5
+        enabled: false
+      testimony_paragraph:
+        enabled: true
+        weight: 6
+      text:
+        weight: 7
+        enabled: false
+      text_and_image:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

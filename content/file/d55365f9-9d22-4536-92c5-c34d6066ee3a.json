@@ -1,0 +1,82 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/primer-proyecto.ddev.site\/sites\/default\/files\/2020-04\/soup1_1.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "d55365f9-9d22-4536-92c5-c34d6066ee3a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "36b094ed-4a24-4de3-a0a9-0dde03070465"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "soup1_1.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-04\/soup1_1.jpg",
+            "url": "\/sites\/default\/files\/2020-04\/soup1_1.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 50441
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-04-17T15:54:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-04-17T15:54:49+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

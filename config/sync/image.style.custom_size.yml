@@ -1,0 +1,15 @@
+uuid: 8634f102-24e8-4bd9-ade5-ec066acf6281
+langcode: en
+status: true
+dependencies: {  }
+name: custom_size
+label: 'custom size'
+effects:
+  4863609b-3eec-44d6-89b0-3596a667eeb2:
+    uuid: 4863609b-3eec-44d6-89b0-3596a667eeb2
+    id: image_scale
+    weight: 2
+    data:
+      width: 400
+      height: 300
+      upscale: false

@@ -1,0 +1,14 @@
+uuid: f73588c8-5f6f-46e7-9d29-0f23e098557e
+langcode: en
+status: true
+dependencies: {  }
+name: media_image
+label: 'media image'
+effects:
+  bc9a4c09-f265-4f48-abd6-44f595a2b51f:
+    uuid: bc9a4c09-f265-4f48-abd6-44f595a2b51f
+    id: image_resize
+    weight: 1
+    data:
+      width: 760
+      height: 420

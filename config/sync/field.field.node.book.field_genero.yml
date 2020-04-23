@@ -1,0 +1,29 @@
+uuid: 0cb2794b-9588-465c-aad4-7fc68f9f771a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_genero
+    - node.type.book
+    - taxonomy.vocabulary.genero
+id: node.book.field_genero
+field_name: field_genero
+entity_type: node
+bundle: book
+label: Genero
+description: 'Los generos del libro al que pertenece'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      genero: genero
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

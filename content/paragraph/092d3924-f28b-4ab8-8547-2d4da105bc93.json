@@ -1,0 +1,103 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/testimony_paragraph"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/testimony_paragraph\/field_author_image": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/media\/5\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "092d3924-f28b-4ab8-8547-2d4da105bc93"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "testimony_paragraph"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-04-20T16:30:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "12"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_testimony"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_author": [
+        {
+            "value": "Otto",
+            "format": "basic_html",
+            "processed": "Otto"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/testimony_paragraph\/field_author_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/media\/5\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/media_imagen"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "557ae14a-3c15-4ccc-b8b7-c906b0aee921"
+                    }
+                ]
+            }
+        ]
+    },
+    "field_testimony": [
+        {
+            "value": "Hola me encanta este sitio",
+            "format": "basic_html",
+            "processed": "Hola me encanta este sitio"
+        }
+    ]
+}

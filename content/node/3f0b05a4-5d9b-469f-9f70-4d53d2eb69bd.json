@@ -1,0 +1,264 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/primer-proyecto.ddev.site\/node\/6?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/book"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/revision_uid": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/uid": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_front_page": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/sites\/default\/files\/2020-04\/unnamed.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_genero": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/taxonomy\/term\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_media_image": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/media\/5\/edit?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_portada_responsive": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/sites\/default\/files\/2020-04\/unnamed_0.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_resumen": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/media\/3\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "3f0b05a4-5d9b-469f-9f70-4d53d2eb69bd"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "book"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-04-17T16:12:49+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "36b094ed-4a24-4de3-a0a9-0dde03070465"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "36b094ed-4a24-4de3-a0a9-0dde03070465"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_front_page": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/sites\/default\/files\/2020-04\/unnamed.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9a81c5e2-7314-47ca-89d6-c54517293b1b"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_genero": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/taxonomy\/term\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/genero"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6c7d53b1-2e03-4b49-9f7a-cbefb928cc07"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/media\/5\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/media_imagen"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "557ae14a-3c15-4ccc-b8b7-c906b0aee921"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_portada_responsive": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/sites\/default\/files\/2020-04\/unnamed_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ed76a0b4-9e90-4b5f-bc89-d6e07b071bf4"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_resumen": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/media\/3\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/para_ver_videos"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5fb24422-412b-4c74-8811-aef49afd4112"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "food hacks",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-04-17T16:04:34+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-04-17T16:12:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Food hacks<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Food hacks<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_isbn": [
+        {
+            "value": "fsf654s6f",
+            "format": "basic_html",
+            "processed": "fsf654s6f"
+        }
+    ]
+}

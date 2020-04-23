@@ -1,0 +1,22 @@
+uuid: 7624dda1-53ab-43f0-802c-c464a5a87d13
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.testimonies.field_testimony
+    - node.type.testimonies
+  module:
+    - user
+id: node.testimonies.teaser
+targetEntityType: node
+bundle: testimonies
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_testimony: true

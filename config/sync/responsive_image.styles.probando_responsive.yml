@@ -1,0 +1,30 @@
+uuid: 10e5c87e-5d4a-4f71-b050-f4d973e73049
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.large
+    - image.style.max_650x650
+    - image.style.medium
+  theme:
+    - bartik
+id: probando_responsive
+label: 'Probando Responsive'
+image_style_mappings:
+  -
+    breakpoint_id: bartik.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: large
+  -
+    breakpoint_id: bartik.narrow
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: max_650x650
+  -
+    breakpoint_id: bartik.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: medium
+breakpoint_group: bartik
+fallback_image_style: medium

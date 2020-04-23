@@ -1,0 +1,14 @@
+uuid: c6351c14-7c0b-4498-9809-814a68b32b05
+langcode: en
+status: true
+dependencies: {  }
+name: list_size
+label: 'List size'
+effects:
+  faca5688-2c80-4ea6-84e9-72515fc9bd42:
+    uuid: faca5688-2c80-4ea6-84e9-72515fc9bd42
+    id: image_resize
+    weight: 1
+    data:
+      width: 250
+      height: 250

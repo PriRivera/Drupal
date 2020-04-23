@@ -1,0 +1,37 @@
+uuid: 133bccd5-416b-4ae8-b4d4-94dcbd4f9720
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragrah_banner
+    - node.type.banner
+    - paragraphs.paragraphs_type.banner_paragraph
+  module:
+    - entity_reference_revisions
+id: node.banner.field_paragrah_banner
+field_name: field_paragrah_banner
+entity_type: node
+bundle: banner
+label: 'paragrah banner'
+description: 'banner paragraph'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      banner_paragraph: banner_paragraph
+    target_bundles_drag_drop:
+      banner_paragraph:
+        enabled: true
+        weight: 4
+      text:
+        weight: 5
+        enabled: false
+      text_and_image:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,28 @@
+uuid: 1077a1e9-ad63-4fef-8bbe-e84d36abb6a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_author_image
+    - media.type.media_imagen
+    - paragraphs.paragraphs_type.testimony_paragraph
+id: paragraph.testimony_paragraph.field_author_image
+field_name: field_author_image
+entity_type: paragraph
+bundle: testimony_paragraph
+label: 'Author image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      media_imagen: media_imagen
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

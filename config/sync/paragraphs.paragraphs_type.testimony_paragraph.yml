@@ -1,0 +1,10 @@
+uuid: 3a52a399-7227-4901-a460-ffb2882e8f8c
+langcode: en
+status: true
+dependencies: {  }
+id: testimony_paragraph
+label: 'Testimony paragraph'
+icon_uuid: null
+icon_default: null
+description: 'Testimony paragraph'
+behavior_plugins: {  }

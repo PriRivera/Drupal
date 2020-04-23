@@ -1,0 +1,82 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/primer-proyecto.ddev.site\/sites\/default\/files\/2020-04\/spicy1_2.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "3cd2f4b5-98f4-4394-a881-718ddc3fe90b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "36b094ed-4a24-4de3-a0a9-0dde03070465"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "spicy1_2.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-04\/spicy1_2.jpg",
+            "url": "\/sites\/default\/files\/2020-04\/spicy1_2.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 98415
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-04-17T16:00:40+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-04-17T16:01:19+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+uuid: 44fc5ffc-2743-4023-85b5-cac105546e6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.banner.field_paragrah_banner
+    - node.type.banner
+  module:
+    - entity_reference_revisions
+    - user
+id: node.banner.default
+targetEntityType: node
+bundle: banner
+mode: default
+content:
+  field_paragrah_banner:
+    type: entity_reference_revisions_entity_view
+    weight: 101
+    label: visually_hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

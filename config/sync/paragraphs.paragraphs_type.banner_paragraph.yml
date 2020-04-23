@@ -1,0 +1,10 @@
+uuid: 6d20b130-b579-4817-8e36-456dc233f487
+langcode: en
+status: true
+dependencies: {  }
+id: banner_paragraph
+label: 'banner paragraph'
+icon_uuid: null
+icon_default: null
+description: 'banner paragraph'
+behavior_plugins: {  }

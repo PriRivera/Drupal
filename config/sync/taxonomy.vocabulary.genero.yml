@@ -1,0 +1,8 @@
+uuid: 5d9e3be4-9ec2-4a4e-88da-156fd83e8f89
+langcode: en
+status: true
+dependencies: {  }
+name: Genero
+vid: genero
+description: 'Los tipos de generos de los libros'
+weight: 0

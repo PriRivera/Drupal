@@ -1,0 +1,14 @@
+uuid: 749be608-78f7-4a7c-9186-80da348f3633
+langcode: en
+status: true
+dependencies: {  }
+id: media_imagen
+label: 'Media Imagen'
+description: 'jpg, jpeg, png, svg'
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_1
+field_map:
+  name: name

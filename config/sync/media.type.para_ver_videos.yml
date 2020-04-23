@@ -1,0 +1,18 @@
+uuid: 8f36bcad-dd97-4d6a-a5b0-79b1f8067f61
+langcode: en
+status: true
+dependencies: {  }
+id: para_ver_videos
+label: 'Para ver videos'
+description: 'Esste tipo de media me permite subir videos'
+source: 'oembed:video'
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  thumbnails_directory: 'public://oembed_thumbnails'
+  providers:
+    - YouTube
+    - Vimeo
+  source_field: field_media_oembed_video_1
+field_map:
+  title: name

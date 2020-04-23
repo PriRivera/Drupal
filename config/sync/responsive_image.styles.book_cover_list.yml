@@ -1,0 +1,17 @@
+uuid: b8a2480f-6ab0-4a4e-a585-0138d24903a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.list_size
+    - image.style.medium
+id: book_cover_list
+label: 'book cover list'
+image_style_mappings:
+  -
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: list_size
+breakpoint_group: responsive_image
+fallback_image_style: medium

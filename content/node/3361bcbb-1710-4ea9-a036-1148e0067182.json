@@ -1,0 +1,236 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/primer-proyecto.ddev.site\/node\/5?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/book"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/revision_uid": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/uid": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_front_page": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/sites\/default\/files\/2020-04\/spicy1_3.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_genero": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/taxonomy\/term\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_portada_responsive": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/sites\/default\/files\/2020-04\/spicy1_2.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_resumen": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/media\/1\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "3361bcbb-1710-4ea9-a036-1148e0067182"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "book"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-04-17T16:04:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "36b094ed-4a24-4de3-a0a9-0dde03070465"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "36b094ed-4a24-4de3-a0a9-0dde03070465"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_front_page": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/sites\/default\/files\/2020-04\/spicy1_3.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1efb60c0-9aed-4861-84d4-8b15866bb574"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_genero": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/taxonomy\/term\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/genero"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6c7d53b1-2e03-4b49-9f7a-cbefb928cc07"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_portada_responsive": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/sites\/default\/files\/2020-04\/spicy1_2.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3cd2f4b5-98f4-4394-a881-718ddc3fe90b"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_resumen": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/media\/1\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/para_ver_videos"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2cfd2cca-8709-4a41-83eb-497e1306e1ae"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Spicy noodles",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-04-17T16:00:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-04-17T16:04:26+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Spicy noodles<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Spicy noodles<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_isbn": [
+        {
+            "value": "ds65d4as6d",
+            "format": "basic_html",
+            "processed": "ds65d4as6d"
+        }
+    ]
+}

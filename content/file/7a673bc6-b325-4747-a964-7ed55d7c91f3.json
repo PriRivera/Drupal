@@ -1,0 +1,82 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/primer-proyecto.ddev.site\/sites\/default\/files\/2020-04\/51S79MZ6rLL._AC_UL160_SR110%2C160_.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "7a673bc6-b325-4747-a964-7ed55d7c91f3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "36b094ed-4a24-4de3-a0a9-0dde03070465"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "51S79MZ6rLL._AC_UL160_SR110,160_.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-04\/51S79MZ6rLL._AC_UL160_SR110,160_.jpg",
+            "url": "\/sites\/default\/files\/2020-04\/51S79MZ6rLL._AC_UL160_SR110%2C160_.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 5809
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-04-13T15:18:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-04-13T15:18:15+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

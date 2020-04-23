@@ -1,0 +1,14 @@
+uuid: fdcd8641-056d-4bcc-9664-962bb6c4192f
+langcode: en
+status: true
+dependencies: {  }
+name: view_cover_size
+label: 'View cover size'
+effects:
+  205ac555-3f79-47fa-afb4-40cbf21f5138:
+    uuid: 205ac555-3f79-47fa-afb4-40cbf21f5138
+    id: image_resize
+    weight: 1
+    data:
+      width: 500
+      height: 500

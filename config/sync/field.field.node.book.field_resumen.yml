@@ -1,0 +1,28 @@
+uuid: 80b7cbfd-ca4f-4da4-8f53-f504eeb38dea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resumen
+    - media.type.para_ver_videos
+    - node.type.book
+id: node.book.field_resumen
+field_name: field_resumen
+entity_type: node
+bundle: book
+label: Resumen
+description: 'Videos summary'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      para_ver_videos: para_ver_videos
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

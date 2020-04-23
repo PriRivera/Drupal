@@ -1,0 +1,236 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/primer-proyecto.ddev.site\/node\/2?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/book"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/revision_uid": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/uid": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_author": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/node\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_front_page": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/sites\/default\/files\/2020-03\/51S79MZ6rLL._AC_UL160_SR110%2C160_.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_genero": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/taxonomy\/term\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_portada_responsive": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/sites\/default\/files\/2020-04\/51S79MZ6rLL._AC_UL160_SR110%2C160_.jpg"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "8780b780-0ae6-40f3-baf6-3081e8d755fd"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "book"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-04-13T15:34:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "36b094ed-4a24-4de3-a0a9-0dde03070465"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "36b094ed-4a24-4de3-a0a9-0dde03070465"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_author": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/node\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/author"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a40fff70-29fa-46a2-b00a-8b4de7203048"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_front_page": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/sites\/default\/files\/2020-03\/51S79MZ6rLL._AC_UL160_SR110%2C160_.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "87efd218-98f1-4b91-9e1f-56eca3c466a6"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_genero": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/taxonomy\/term\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/genero"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "67048e86-0c16-4e38-b601-f0679d9fb9d0"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/book\/field_portada_responsive": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/sites\/default\/files\/2020-04\/51S79MZ6rLL._AC_UL160_SR110%2C160_.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7a673bc6-b325-4747-a964-7ed55d7c91f3"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Harry Potter",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-03-20T16:12:30+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-04-13T15:34:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Todos son magos<\/p>\r\n\r\n<p>Voldemort intenta matarlos a todos<\/p>\r\n\r\n<p>El viejito tenia la varita se sauco<\/p>\r\n\r\n<p>Al final todos terminan hecho miersh y enamorados<\/p>\r\n\r\n<p>Maldita JK :c<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Todos son magos<\/p>\n\n<p>Voldemort intenta matarlos a todos<\/p>\n\n<p>El viejito tenia la varita se sauco<\/p>\n\n<p>Al final todos terminan hecho miersh y enamorados<\/p>\n\n<p>Maldita JK :c<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_isbn": [
+        {
+            "value": "123123",
+            "format": "basic_html",
+            "processed": "123123"
+        }
+    ]
+}

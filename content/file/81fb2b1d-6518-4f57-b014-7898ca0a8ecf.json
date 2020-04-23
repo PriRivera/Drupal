@@ -1,0 +1,82 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/primer-proyecto.ddev.site\/sites\/default\/files\/oembed_thumbnails\/YWuFtG0MPO9aOCqU5y7FB4shpaI9NwojnK3E9TUJIuM.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "81fb2b1d-6518-4f57-b014-7898ca0a8ecf"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "36b094ed-4a24-4de3-a0a9-0dde03070465"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "YWuFtG0MPO9aOCqU5y7FB4shpaI9NwojnK3E9TUJIuM.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/YWuFtG0MPO9aOCqU5y7FB4shpaI9NwojnK3E9TUJIuM.jpg",
+            "url": "\/sites\/default\/files\/oembed_thumbnails\/YWuFtG0MPO9aOCqU5y7FB4shpaI9NwojnK3E9TUJIuM.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 22554
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-04-17T16:03:50+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-04-17T16:03:50+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

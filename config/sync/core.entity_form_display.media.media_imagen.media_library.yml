@@ -1,0 +1,30 @@
+uuid: 63fc7857-252d-4e92-810f-e026ca733ad6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.media_imagen.field_media_image_1
+    - image.style.thumbnail
+    - media.type.media_imagen
+  module:
+    - image
+id: media.media_imagen.media_library
+targetEntityType: media
+bundle: media_imagen
+mode: media_library
+content:
+  field_media_image_1:
+    weight: -50
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden:
+  created: true
+  name: true
+  path: true
+  status: true
+  uid: true

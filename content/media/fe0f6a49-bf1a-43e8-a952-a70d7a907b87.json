@@ -1,0 +1,134 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/primer-proyecto.ddev.site\/media\/4\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/para_ver_videos"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/para_ver_videos\/uid": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/para_ver_videos\/thumbnail": [
+            {
+                "href": "http:\/\/primer-proyecto.ddev.site\/sites\/default\/files\/oembed_thumbnails\/YWuFtG0MPO9aOCqU5y7FB4shpaI9NwojnK3E9TUJIuM.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "fe0f6a49-bf1a-43e8-a952-a70d7a907b87"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "para_ver_videos"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-04-17T16:03:50+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/para_ver_videos\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "36b094ed-4a24-4de3-a0a9-0dde03070465"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/para_ver_videos\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/primer-proyecto.ddev.site\/sites\/default\/files\/oembed_thumbnails\/YWuFtG0MPO9aOCqU5y7FB4shpaI9NwojnK3E9TUJIuM.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "81fb2b1d-6518-4f57-b014-7898ca0a8ecf"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "38 TRUCOS DE COCINA FANT\u00c1STICOS PARA PRINCIPIANTES QUE SON REALMENTE F\u00c1CILES",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-04-17T16:03:37+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-04-17T16:03:50+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video_1": [
+        {
+            "value": "https:\/\/www.youtube.com\/watch?v=kohwgh8vg10",
+            "lang": "en"
+        }
+    ]
+}

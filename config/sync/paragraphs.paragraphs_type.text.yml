@@ -1,0 +1,10 @@
+uuid: 35a59f94-5942-498c-8afe-f93c3d03faa8
+langcode: en
+status: true
+dependencies: {  }
+id: text
+label: Text
+icon_uuid: null
+icon_default: null
+description: 'example of a paragraph '
+behavior_plugins: {  }
