@@ -1,0 +1,3 @@
+access color_favorito configuration:
+  title: "Color Favorito"
+  description: "Permiso para acceder el formulario de color favorito"
