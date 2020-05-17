@@ -1,0 +1,62 @@
+<?php
+
+/**
+ * @file
+ * Contains cargar_libs_externas.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function cargar_libs_externas_help($route_name, RouteMatchInterface $route_match)
+{
+	switch ($route_name) {
+			// Main module help for the cargar_libs_externas module.
+		case 'help.page.cargar_libs_externas':
+			$output = '';
+			$output .= '<h3>' . t('About') . '</h3>';
+			$output .= '<p>' . t('Cargar librerias externas') . '</p>';
+			return $output;
+
+		default:
+	}
+}
+
+/**
+ * Implements hook_theme().
+ */
+function cargar_libs_externas_theme()
+{
+	return [
+		'slider_theme' => [
+			'variables' => []
+		],
+	];
+}
+
+function cargar_libs_externas_libraries_info()
+{
+	$libraries['flexslider'] = array(
+		'name' => 'Simple library',
+		'vendor url' => 'http://flexslider.woothemes.com',
+		'download url' => 'https://github.com/woocommerce/FlexSlider/releases/latest',
+		'version arguments' => array(
+			'file' => 'jquery.flexslider-min.js',
+			// e.g. jQuery FlexSlider v2.1.
+			'pattern' => '/jQuery FlexSlider v(\d+\.+\d+(\.+\d+)?)/',
+			'lines' => 2,
+		),
+		'files' => array(
+			'js' => [
+				'jquery.flexslider-min.js'
+			],
+			'css' => [
+				'flexslider.css',
+			]
+		),
+	);
+
+	return $libraries;
+}

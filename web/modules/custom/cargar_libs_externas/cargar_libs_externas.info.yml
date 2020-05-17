@@ -1,0 +1,7 @@
+name: 'Cargar Libs Externas'
+type: module
+description: 'Cargar librerias externas'
+core: 8.x
+package: 'Custom'
+dependencies:
+  - libraries

@@ -52,6 +52,24 @@ class CountryFieldFormatter extends FormatterBase
       //eje: $paises[$item->value]
       // CR, FR
       // Tiene que imprimir Costa Rica en vez de las iniciales
-      return  nl2br(Html::escape($item->value));
+      $paises = array(
+        array(
+            'id' => 'CR',
+            'name'=> 'Costa Rica'
+        ),
+        array(
+            'id' => 'SL',
+            'name'=> 'Salvador'
+        )
+    );
+
+    $length =count($paises);
+
+    for($i=0;$i<$length;$i++){
+        if($paises[$i]['id'] == 'CR'){
+            echo $paises[$i]['name'];
+        }
+    }
+      //return  nl2br(Html::escape($item->value));
   }
 }

@@ -1,0 +1,23 @@
+uuid: 882dcd99-4b55-4710-8cf6-189880963009
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_country
+    - node.type.author
+  module:
+    - country_field
+id: node.author.field_country
+field_name: field_country
+entity_type: node
+bundle: author
+label: Country
+description: 'Country where you are from'
+required: false
+translatable: false
+default_value:
+  -
+    value: CR
+default_value_callback: ''
+settings: {  }
+field_type: country_field_type

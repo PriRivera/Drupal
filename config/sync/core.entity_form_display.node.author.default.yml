@@ -5,11 +5,14 @@ dependencies:
   config:
     - field.field.node.author.body
     - field.field.node.author.field_avatar
+    - field.field.node.author.field_country
+    - field.field.node.author.field_email
     - field.field.node.author.field_lastname
     - field.field.node.author.field_nacionality
     - image.style.thumbnail
     - node.type.author
   module:
+    - country_field
     - image
     - path
     - text
@@ -41,6 +44,20 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_country:
+    weight: 125
+    settings: {  }
+    third_party_settings: {  }
+    type: country_field_widget_type
+    region: content
+  field_email:
+    weight: 126
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
     region: content
   field_lastname:
     weight: 122

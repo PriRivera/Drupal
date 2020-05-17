@@ -1,0 +1,21 @@
+uuid: 055a2cd4-99dd-4cd2-9373-ab42a14518e2
+langcode: en
+status: true
+dependencies:
+  module:
+    - loremipsum
+  theme:
+    - bartik
+id: loremipsumblock
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: loremipsum_block
+settings:
+  id: loremipsum_block
+  label: 'Lorem ipsum block'
+  provider: loremipsum
+  label_display: visible
+  loremipsum_block_settings: null
+visibility: {  }

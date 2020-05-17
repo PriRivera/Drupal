@@ -1,0 +1,19 @@
+{#
+    @file
+    item-accordion.html.twig
+
+    Avaliable variables:
+        - title: titulo de la seccion
+        - description: Descripcion de la seccion
+#}
+<div class="dropdown-container">
+	<header class="clearfix">
+		<h1>{{ title }}</h1>
+		<figure class="expand"><i>&times;</i></figure>
+	</header>
+	<article>
+		<div class="article-inner">
+        <p>{{ description }}</p>
+		</div>
+	</article>
+</div>
