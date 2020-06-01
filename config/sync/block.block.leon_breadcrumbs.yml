@@ -1,0 +1,22 @@
+uuid: 02ed61b8-8a89-42d2-9eb5-dfef53fa4783
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - leon
+_core:
+  default_config_hash: b6mUaCq5YPapRUABXRHfNTT6fxWIj5lgf0Mg4HaRJ_I
+id: leon_breadcrumbs
+theme: leon
+region: breadcrumb
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

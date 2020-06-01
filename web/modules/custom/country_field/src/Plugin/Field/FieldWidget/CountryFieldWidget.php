@@ -26,7 +26,6 @@ class CountryFieldWidget extends WidgetBase{
     public function formElement(FieldItemListInterface $items, $delta, array $element, array &$form, FormStateInterface $form_state) {
         $element += [
             "#type" => 'select',
-            "#default_value"=> isset($items[$delta]->value) ? $items[$delta]->value : '',
             "#title" => $this->t('Select country'),
             "#options" => \Drupal::service('country_manager')->getList(),
             "#element_validate" => [

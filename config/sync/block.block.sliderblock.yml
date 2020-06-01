@@ -1,0 +1,20 @@
+uuid: a580fe25-07b9-4ca8-bbb2-278c6a55c7f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - cargar_libs_externas
+  theme:
+    - bartik
+id: sliderblock
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: slider_block
+settings:
+  id: slider_block
+  label: 'Slider block'
+  provider: cargar_libs_externas
+  label_display: visible
+visibility: {  }

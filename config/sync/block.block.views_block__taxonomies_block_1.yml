@@ -1,0 +1,30 @@
+uuid: 6ffa4aaa-0a01-40d8-845f-ba647934b532
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.taxonomies
+  module:
+    - system
+    - views
+  theme:
+    - leon
+id: views_block__taxonomies_block_1
+theme: leon
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:taxonomies-block_1'
+settings:
+  id: 'views_block:taxonomies-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /books
+    negate: false
+    context_mapping: {  }

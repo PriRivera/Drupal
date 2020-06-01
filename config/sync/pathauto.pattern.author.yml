@@ -1,0 +1,22 @@
+uuid: e7087d62-b247-47ea-9f14-dcc5ee448ad1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: author
+label: Author
+type: 'canonical_entities:node'
+pattern: 'author/[node:title][node:created]'
+selection_criteria:
+  449af5fa-90ce-4443-8286-b5a8a5d8da30:
+    id: node_type
+    bundles:
+      author: author
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 449af5fa-90ce-4443-8286-b5a8a5d8da30
+selection_logic: and
+weight: -5
+relationships: {  }
